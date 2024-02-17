@@ -1,5 +1,4 @@
-.tag, .chat {height: 100%; margin-left:auto; position:relative; width: 100%}
-#t1073870.skin_tbl.box_minus {background:var(--contt)!important; box-shadow:var(--shado)!important}
+body {background:var(--backg); color:var(--ftcol); font-size: 1rem; font-weight: 400; line-height: 1.618; overflow:hidden scroll!important; text-rendering:geometricprecision}
 .tag li, .side_tag li {font-size: 1rem; height:auto; margin-left: 62px; margin-right: 12px; padding: 9px 5px 0 0!important; position:relative; text-align:left}
 .tag .when {float:right; font-size:.75rem; margin-right: 10px; vertical-align:middle}
 .tag .list, .side_tag .list {background:var(--contt); font-size:.875rem; padding-bottom: 12px; padding-left: 0}
