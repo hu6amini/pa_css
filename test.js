@@ -30,15 +30,14 @@ function replaceEmoticons(text) {
         ':-p': '😛',
         ':P': '😛',
         ';P': '😜',
-        ';-P': '😜',
         ':-D': '😀',
         ':D': '😀',
-        ':fire:': '🔥',
+        ':fire:': '🔥',  // Adding support for :fire:
         // Add more emoticons as needed
     };
 
     // Use a regular expression to replace emoticons
-    return text.replace(/(:\)|:\(|;\)|:-P|:-p|:P|;P|:-D|:D)/g, match => emoticonMap[match]);
+    return text.replace(/(:\)|:\(|;\)|:-P|:-p|:P|;P|:-D|:D|:fire:)/g, match => emoticonMap[match]);
 }
 
 // Sync Quill with the textarea 
