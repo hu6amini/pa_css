@@ -30,8 +30,10 @@ function replaceEmoticons(text) {
         ':-p': '😛',
         ':P': '😛',
         ';P': '😜',
+        ';-P': '😜',
         ':-D': '😀',
         ':D': '😀',
+        ':fire:': '🔥',
         // Add more emoticons as needed
     };
 
