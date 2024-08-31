@@ -23,3 +23,29 @@ select:hover:not(.codebuttons[onchange="tag('[color='+this.options[this.selected
 #msg .textinput[name="FILE_UPLOAD"],#user .forminput[type="file"],#user .textinput[name="FILE_UPLOAD"]{font-size:0;width:fit-content!important} 
 #attach{border-top:1px solid var(--ltbrd)}
 .send button{white-space:nowrap}
+.right.Sub.preview{align-items:center;display:inline-flex;gap:3px}
+#send .send .darkbar button[name="preview"],.profile .nick,#msg .cp.send button[name="preview"]{order:1}
+#send .send .darkbar button[type="submit"],.send .darkbar button[name="submit_post"],.profile_info,.profile-group,#msg .cp.send input[type="submit"]{order:2}
+.sbutton{align-items:center;display:flex;justify-content:center;margin:0;order:2;overflow:hidden;position:relative}
+input[value="Submit Modified Post"],input[value="Invia il messaggio modificato"],input[value="Enviar el mensaje modificado"],input[value="Envoie le message modifié"],input[value="Verschicke die abgeänderte Nachricht"],input[value="Salvar alterações"]{opacity:0;position:absolute}
+.profile .Sub.left .mini_buttons{order:3}
+.profile_info,.cp.send li.Item[style="padding:5px 1.5% 2px 1.5%"] > .Justify{margin:0}
+input[value="Go!"]:hover:not(.right.Sub input[value="Go!"]),#user input[title="Character Map"]:hover{background-color:var(--grhov)!important}
+.sunbar.center[onclick="addButtonPollFF()"] > .Sub.Item[style="width:68%"]{width:100%!important;white-space:nowrap}
+.sunbar.center[onclick="addButtonPollFF()"]{align-items:center;display:inline-flex;height:36px;justify-content:center;margin-left:10px;width:auto}
+.send .Justify:hover,td.right.Item.Justify{cursor:default}
+.cp.send .sunbar.center.Item + ul.list{padding:12px}
+.cp.send li.Item[style="padding:5px 1.5% 2px 1.5%"]{align-items:center;display:flex;justify-content:left}
+#msg .cp.send .Item > #Post{border:1px solid var(--ltbrd);margin:0;transition:min-height .618s ease-in-out}
+#msg .cp.send .Item > #Post:focus{min-height:300px}
+#user .Sub.Item b.info{color:var(--grnon);font-weight:700}
+#user .Item[style="padding:6px;text-align:center"]{padding:0!important}
+#user .main_list .sunbar.center.Item + ul.list{padding-left:12px;padding-right:12px}
+#user .Item[style="text-align:center;line-height:200%;padding-bottom:14px"]{padding:0 0 13px 0!important}
+#user small a[href="https://accounts.forumcommunity.net/?act=Reg&CODE=10"]::before{content:'\f0e0 \00a0';display:inline-block;margin-left:5px}
+.Blocker{background-color:#090A0C61!important}
+.post .avatar:not(#msg .post .avatar) img[src="https://res.cloudinary.com/dbdf6gwgo/image/upload/v1674337715/forum/Avatar/default_avatar_zpw3zz.svg"],#board .menuwrap img[src="https://res.cloudinary.com/dbdf6gwgo/image/upload/v1674337715/forum/Avatar/default_avatar_zpw3zz.svg"],#forum .menuwrap img[src="https://res.cloudinary.com/dbdf6gwgo/image/upload/v1674337715/forum/Avatar/default_avatar_zpw3zz.svg"],#topic .menuwrap img[src="https://res.cloudinary.com/dbdf6gwgo/image/upload/v1674337715/forum/Avatar/default_avatar_zpw3zz.svg"],#blog .menuwrap img[src="https://res.cloudinary.com/dbdf6gwgo/image/upload/v1674337715/forum/Avatar/default_avatar_zpw3zz.svg"],.profile img[src="https://res.cloudinary.com/dbdf6gwgo/image/upload/v1674337715/forum/Avatar/default_avatar_zpw3zz.svg"]{visibility:hidden}
+.textinput,.forminput,.codebuttons,option,input,button,optgroup,textarea,.footer span:first-child,.nickname{font-family:quicksand!important}
+.color img[src^="https://www.google.com/s2/"]{margin-right:3px;vertical-align:text-bottom}
+.tmsg img[src^="https://www.google.com/s2/"]{border-radius:0!important;bottom:0;left:0;margin:auto;position:absolute;top:0}
+img[src^="https://www.google.com/s2/"]{user-select:none}
